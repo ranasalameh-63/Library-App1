@@ -24,7 +24,7 @@ class Home extends Component {
 
   render() {
     return (
-      <main style={{ padding: '20px' }}>
+      <main style={{ padding: '20px', fontFamily:'Popins'}}>
         <h2>Book List</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>
           {this.state.books.map((book) => (
